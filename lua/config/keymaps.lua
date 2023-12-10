@@ -34,16 +34,10 @@ keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 
 -- New tab
-keymap.set("n", "te", ":tabedit", opts)
-keymap.set("n", "<tab>", ":tabnext<Return>", opts)
-keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
+-- keymap.set("n", "te", ":tabedit", opts)
+-- keymap.set("n", "<tab>", ":tabnext<Return>", opts)
+-- keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 
 -- Split Window
 keymap.set("n", "<leader>ws", ":split<Return>", opts)
 keymap.set("n", "<leader>wv", ":vsplit<Return>", opts)
-
---Move Window
-keymap.set("n", "<leader>wh", "<C-w>h")
-keymap.set("n", "<leader>wk", "<C-w>k")
-keymap.set("n", "<leader>wj", "<C-w>j")
-keymap.set("n", "<leader>wl", "<C-w>l")
